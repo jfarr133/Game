@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "consoleNetworkTest1", "consoleNetworkTest1\consoleNetworkTest1.csproj", "{CFF5B731-FC58-40DE-A6C8-BEF1DE16338D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multi Con C", "Multi Con C\Multi Con C.csproj", "{678651FE-EF5D-4CAA-9898-1B762D7DC276}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFF5B731-FC58-40DE-A6C8-BEF1DE16338D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF5B731-FC58-40DE-A6C8-BEF1DE16338D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF5B731-FC58-40DE-A6C8-BEF1DE16338D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF5B731-FC58-40DE-A6C8-BEF1DE16338D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{678651FE-EF5D-4CAA-9898-1B762D7DC276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{678651FE-EF5D-4CAA-9898-1B762D7DC276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{678651FE-EF5D-4CAA-9898-1B762D7DC276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{678651FE-EF5D-4CAA-9898-1B762D7DC276}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64325706-68F5-4CAF-BDE1-9B2CBB4B5393}
+	EndGlobalSection
+EndGlobal

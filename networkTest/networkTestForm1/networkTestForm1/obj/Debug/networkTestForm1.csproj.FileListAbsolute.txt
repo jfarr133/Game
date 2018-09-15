@@ -1,0 +1,10 @@
+C:\Users\Jakob\source\repos\networkTest\networkTestForm1\networkTestForm1\bin\Debug\networkTestForm1.exe.config
+C:\Users\Jakob\source\repos\networkTest\networkTestForm1\networkTestForm1\bin\Debug\networkTestForm1.exe
+C:\Users\Jakob\source\repos\networkTest\networkTestForm1\networkTestForm1\bin\Debug\networkTestForm1.pdb
+C:\Users\Jakob\source\repos\networkTest\networkTestForm1\networkTestForm1\obj\Debug\networkTestForm1.csprojAssemblyReference.cache
+C:\Users\Jakob\source\repos\networkTest\networkTestForm1\networkTestForm1\obj\Debug\networkTestForm1.Form1.resources
+C:\Users\Jakob\source\repos\networkTest\networkTestForm1\networkTestForm1\obj\Debug\networkTestForm1.Properties.Resources.resources
+C:\Users\Jakob\source\repos\networkTest\networkTestForm1\networkTestForm1\obj\Debug\networkTestForm1.csproj.GenerateResource.cache
+C:\Users\Jakob\source\repos\networkTest\networkTestForm1\networkTestForm1\obj\Debug\networkTestForm1.csproj.CoreCompileInputs.cache
+C:\Users\Jakob\source\repos\networkTest\networkTestForm1\networkTestForm1\obj\Debug\networkTestForm1.exe
+C:\Users\Jakob\source\repos\networkTest\networkTestForm1\networkTestForm1\obj\Debug\networkTestForm1.pdb

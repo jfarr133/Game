@@ -1,0 +1,8 @@
+C:\Users\Jakob\source\repos\networkTest\consoleNetworkTest1\consoleNetworkTest1\bin\Debug\consoleNetworkTest1.exe
+C:\Users\Jakob\source\repos\networkTest\consoleNetworkTest1\consoleNetworkTest1\bin\Debug\consoleNetworkTest1.pdb
+C:\Users\Jakob\source\repos\networkTest\consoleNetworkTest1\consoleNetworkTest1\obj\Debug\consoleNetworkTest1.csprojAssemblyReference.cache
+C:\Users\Jakob\source\repos\networkTest\consoleNetworkTest1\consoleNetworkTest1\obj\Debug\consoleNetworkTest1.csproj.CoreCompileInputs.cache
+C:\Users\Jakob\source\repos\networkTest\consoleNetworkTest1\consoleNetworkTest1\obj\Debug\consoleNetworkTest1.exe
+C:\Users\Jakob\source\repos\networkTest\consoleNetworkTest1\consoleNetworkTest1\obj\Debug\consoleNetworkTest1.pdb
+C:\Users\Jakob\source\repos\networkTest\consoleNetworkTest1\consoleNetworkTest1\obj\Debug\consoleNetworkTest1.Main.resources
+C:\Users\Jakob\source\repos\networkTest\consoleNetworkTest1\consoleNetworkTest1\obj\Debug\consoleNetworkTest1.csproj.GenerateResource.cache
