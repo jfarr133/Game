@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StudentForm.Client">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="StudentForm.Client.ClientReceivedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Client.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="StudentForm.Client.ClientDisconnectHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Client.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABBAAAABAAAAwAAAAAAAAAAAAAAAAAAAAAAAAgCAAAA=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentForm.Listener">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="StudentForm.Listener.SocketAcceptHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Listener.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAACAAEAAAAAAAAAAACAAAAAAAIICAAAAAAAA=</HashCode>
+      <FileName>Listener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentForm.Program">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentForm.StudentForm">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAGEAQBAAgACAgAAbAoAACAEAAAwAAEAAAAA=</HashCode>
+      <FileName>StudentForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentForm.ValueStudent">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAICAAAAAAAAAAAAAAAAAAAAAAAAEAAgAEAAA=</HashCode>
+      <FileName>ValueStudent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentForm.Properties.Resources">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentForm.Properties.Settings">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

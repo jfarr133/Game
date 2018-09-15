@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NetworkArithmeticGame.Client2">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="NetworkArithmeticGame.Client2.ClientReceivedHandler2" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Client2.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="NetworkArithmeticGame.Client2.ClientDisconnectHandler2" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Client2.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AABAAAABAEAAwAAAAAAAAAAAAAAAAAAAAAAAAgCAAAA=</HashCode>
+      <FileName>Client2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkArithmeticGame.LinkListNode">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAACAAAAIABAAAABEAAAACIAACAAIAAAA=</HashCode>
+      <FileName>LinkListNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkArithmeticGame.LinkListNode2">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAABAAAAEAFAQAQAAAIAAAAAAAAAABAFAAAMA=</HashCode>
+      <FileName>LinkListNode2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkArithmeticGame.Listener2">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="NetworkArithmeticGame.Listener2.SocketAcceptHandler2" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Listener2.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAACAAEAAAAAAAAAAAgAAAAAAAIACAAAAAAAI=</HashCode>
+      <FileName>Listener2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkArithmeticGame.NetworkBinaryTree">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACAQCAAIAAAAAAEAAAAggAAAAQAAAAAAAAAAAABA=</HashCode>
+      <FileName>NetworkBinaryTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkArithmeticGame.NetworkBinaryTreeNode">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAABAAAIAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>NetworkBinaryTreeNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkArithmeticGame.Program">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkArithmeticGame.TeacherForm">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BREKIiIAOiEAARIAkEDYgwAbCPAQGCmBEAegIUBLANI=</HashCode>
+      <FileName>TeacherForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkArithmeticGame.Values">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAICAAAAAAAAAAACAAAAAAAAAAAAEAAgAEAAA=</HashCode>
+      <FileName>Values.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkArithmeticGame.Values2">
+    <Position X="3.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAICAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAIAA=</HashCode>
+      <FileName>Values2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkArithmeticGame.Properties.Resources">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkArithmeticGame.Properties.Settings">
+    <Position X="0.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

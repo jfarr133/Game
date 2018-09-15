@@ -6,6 +6,13 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading.Tasks;
 
+/*
+ * Author: Jakob Farrow 2104990817 or 455089250
+ * Purpose: The functionality for this page is to listen and wait for a signal from the teacher. 
+ * Version Control: 1.0
+ * Date: 15/09/18
+ */
+
 namespace StudentForm
 {
     class Listener

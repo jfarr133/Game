@@ -1,56 +1,145 @@
-﻿using System;
+﻿////////////////////////////////////////////////////////////////////////////////////////////////////
+// file:	LinkListNode.cs
+//
+// summary:	Implements the link list node class
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * Author: Jakob Farrow 2104990817 or 455089250
+ * Purpose: The functionality for this page is to create and get the values for the linked list. 
+ * Version Control: 1.0
+ * Date: 15/09/18
+ */
+
 namespace NetworkArithmeticGame
 {
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    /// <summary>   A link list node. </summary>
+    ///
+    /// <remarks>   Jakob, 15/09/2018. </remarks>
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
     class LinkListNode
     {
-        Values numberValue;
+        /// <summary>   my value. </summary>
+        int myValue;
 
-        public LinkListNode previous;
-        public LinkListNode next;
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        /// <summary>   Gets the next. </summary>
+        ///
+        /// <value> The next. </value>
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        public LinkListNode(Values value)
+        LinkListNode previous, next;
+
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        /// <summary>   Constructor. </summary>
+        ///
+        /// <remarks>   Jakob, 15/09/2018. </remarks>
+        ///
+        /// <param name="theValue"> the value. </param>
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        public LinkListNode(int theValue)
         {
-            this.numberValue = value;
+            myValue = theValue;
         }
 
-        public Values GetMyValue()
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        /// <summary>   Gets the value. </summary>
+        ///
+        /// <remarks>   Jakob, 15/09/2018. </remarks>
+        ///
+        /// <returns>   The value. </returns>
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        public int getValue()
         {
-            return this.numberValue;
-        }
-        public void SetMyValue(Values value)
-        {
-            this.numberValue = value;
+            return this.myValue;
         }
 
-        public void SetNext(LinkListNode aNode)
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        /// <summary>   Sets my value. </summary>
+        ///
+        /// <remarks>   Jakob, 15/09/2018. </remarks>
+        ///
+        /// <param name="aValue">   The value. </param>
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        public void setMyValue(int aValue)
         {
-            this.next = aNode;
+            myValue = aValue;
         }
+
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        /// <summary>   Sets a next. </summary>
+        ///
+        /// <remarks>   Jakob, 15/09/2018. </remarks>
+        ///
+        /// <param name="theNode">  the node. </param>
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        public void setNext(LinkListNode theNode)
+        {
+            this.next = theNode;
+        }
+
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        /// <summary>   Gets the next item. </summary>
+        ///
+        /// <remarks>   Jakob, 15/09/2018. </remarks>
+        ///
+        /// <returns>   The next. </returns>
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
 
         public LinkListNode getNext()
         {
             return this.next;
         }
 
-        public void SetPrevious(LinkListNode aNode)
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        /// <summary>   Sets the previous. </summary>
+        ///
+        /// <remarks>   Jakob, 15/09/2018. </remarks>
+        ///
+        /// <param name="theNode">  the node. </param>
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        public void setPrevious(LinkListNode theNode)
         {
-            this.previous = aNode;
+            this.previous = theNode;
         }
 
-        public LinkListNode GetPrevious()
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        /// <summary>   Gets the previous item. </summary>
+        ///
+        /// <remarks>   Jakob, 15/09/2018. </remarks>
+        ///
+        /// <returns>   The previous. </returns>
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        public LinkListNode getPrevious()
         {
             return this.previous;
         }
 
-        public string NodeToString()
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        /// <summary>   Gets the tostring. </summary>
+        ///
+        /// <remarks>   Jakob, 15/09/2018. </remarks>
+        ///
+        /// <returns>   A string. </returns>
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        public string tostring()
         {
-            return numberValue.FirstNumber.ToString() + numberValue.Operation 
-                + numberValue.SecondNumber + "=" + numberValue.Answer;
+            return myValue.ToString();
         }
     }
 }
