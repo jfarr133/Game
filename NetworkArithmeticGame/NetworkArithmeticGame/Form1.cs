@@ -17,8 +17,7 @@ namespace NetworkArithmeticGame
 {
     public partial class Form1 : Form
     {
-       // Socket socket;
-       // EndPoint epLocalPC, epRemotePC;
+
         double firstNumber, secondNumber, answer;
         int TogMove;
         /// <summary>   The value x coordinate. </summary>
@@ -35,12 +34,6 @@ namespace NetworkArithmeticGame
         public Form1()
         {
             InitializeComponent();
-            /*socket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram,
-                     ProtocolType.Udp);
-            socket.SetSocketOption(SocketOptionLevel.Socket,
-                                   SocketOptionName.ReuseAddress, true);
-            txtFirstNumber.Text = getLocalIPAddress();
-            txtAnswer.Text = getLocalIPAddress();*/
 
             dataGrid.ColumnCount = 4;
             dataGrid.Columns[0].Name = "First Number";
