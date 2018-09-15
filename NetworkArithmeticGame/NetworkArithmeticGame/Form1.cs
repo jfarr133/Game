@@ -75,7 +75,7 @@ namespace NetworkArithmeticGame
 
             });
         }
-        void client_Received2(Client2 sender2, byte[] data2 /* IAsyncResult aResult*/)
+        void client_Received2(Client2 sender2, byte[] data2)
         {
             Invoke((MethodInvoker)delegate
             {
