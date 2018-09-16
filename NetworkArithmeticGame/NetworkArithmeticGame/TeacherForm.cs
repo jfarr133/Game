@@ -373,14 +373,13 @@ namespace NetworkArithmeticGame
             HashTable.Add("Operator", cboxOperator.Text);
             HashTable.Add("Second Number", txtSecondNumber.Text);
             HashTable.Add("Answer", txtAnswer.Text);
-            HashTable.Add("Binary Tree", txtLinkedList);
 
             var BinaryConverter = new System.Runtime.Serialization.Formatters.Binary.BinaryFormatter();
-            using (var save = File.Create("BinaryTree.txt"))
+            using (var save = File.Create("HashSave.txt"))
             {
                 //streamwriter.Write(HashTable);
                 BinaryConverter.Serialize(save, HashTable);
-                MessageBox.Show("Your file has been saved");
+                
             }
         }
 
@@ -499,16 +498,41 @@ namespace NetworkArithmeticGame
         private void btnSavePreorder_Click(object sender, EventArgs e)
         {
             hashDemo();
+
+            string preOrderPath = "Pre-Order.txt";
+
+            using (StreamWriter sw = File.AppendText(preOrderPath))
+            {
+                sw.WriteLine("PRE-ORDER: " + binaryTree.printPreOrder(binaryTree));
+                sw.Close();
+            }
+            MessageBox.Show("Your Pre-Order file has been saved");
         }
 
         private void btnSaveInorder_Click(object sender, EventArgs e)
         {
             hashDemo();
+            string preOrderPath = "In-Order.txt";
+
+            using (StreamWriter sw = File.AppendText(preOrderPath))
+            {
+                sw.WriteLine("IN-ORDER: " + binaryTree.printInOrder(binaryTree));
+                sw.Close();
+            }
+            MessageBox.Show("Your In-Order file has been saved");
         }
 
         private void btnSavePostOrder_Click(object sender, EventArgs e)
         {
             hashDemo();
+            string preOrderPath = "Post-Order.txt";
+
+            using (StreamWriter sw = File.AppendText(preOrderPath))
+            {
+                sw.WriteLine("POST-ORDER: " + binaryTree.printPostOrder(binaryTree));
+                sw.Close();
+            }
+            MessageBox.Show("Your Post-Order file has been saved");
         }
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////
