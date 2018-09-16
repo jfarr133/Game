@@ -37,3 +37,16 @@ C:\Users\Jakob\source\repos\NetworkArithmeticGame\NetworkArithmeticGame\bin\Debu
 C:\Users\Jakob\source\repos\NetworkArithmeticGame\NetworkArithmeticGame\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Jakob\source\repos\NetworkArithmeticGame\NetworkArithmeticGame\obj\Debug\NetworkArithmeticGame.csproj.CopyComplete
 C:\Users\Jakob\source\repos\NetworkArithmeticGame\NetworkArithmeticGame\obj\Debug\NetworkArithmeticGame.TeacherForm.resources
+C:\Users\Jakob\Documents\Game\NetworkArithmeticGame\NetworkArithmeticGame\bin\Debug\NetworkArithmeticGame.exe.config
+C:\Users\Jakob\Documents\Game\NetworkArithmeticGame\NetworkArithmeticGame\bin\Debug\NetworkArithmeticGame.exe
+C:\Users\Jakob\Documents\Game\NetworkArithmeticGame\NetworkArithmeticGame\bin\Debug\NetworkArithmeticGame.pdb
+C:\Users\Jakob\Documents\Game\NetworkArithmeticGame\NetworkArithmeticGame\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jakob\Documents\Game\NetworkArithmeticGame\NetworkArithmeticGame\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jakob\Documents\Game\NetworkArithmeticGame\NetworkArithmeticGame\obj\Debug\NetworkArithmeticGame.csprojAssemblyReference.cache
+C:\Users\Jakob\Documents\Game\NetworkArithmeticGame\NetworkArithmeticGame\obj\Debug\NetworkArithmeticGame.TeacherForm.resources
+C:\Users\Jakob\Documents\Game\NetworkArithmeticGame\NetworkArithmeticGame\obj\Debug\NetworkArithmeticGame.Properties.Resources.resources
+C:\Users\Jakob\Documents\Game\NetworkArithmeticGame\NetworkArithmeticGame\obj\Debug\NetworkArithmeticGame.csproj.GenerateResource.cache
+C:\Users\Jakob\Documents\Game\NetworkArithmeticGame\NetworkArithmeticGame\obj\Debug\NetworkArithmeticGame.csproj.CoreCompileInputs.cache
+C:\Users\Jakob\Documents\Game\NetworkArithmeticGame\NetworkArithmeticGame\obj\Debug\NetworkArithmeticGame.csproj.CopyComplete
+C:\Users\Jakob\Documents\Game\NetworkArithmeticGame\NetworkArithmeticGame\obj\Debug\NetworkArithmeticGame.exe
+C:\Users\Jakob\Documents\Game\NetworkArithmeticGame\NetworkArithmeticGame\obj\Debug\NetworkArithmeticGame.pdb

@@ -229,6 +229,7 @@
             this.btnSavePostOrder.TabIndex = 43;
             this.btnSavePostOrder.Text = "save";
             this.btnSavePostOrder.UseVisualStyleBackColor = false;
+            this.btnSavePostOrder.Click += new System.EventHandler(this.btnSavePostOrder_Click);
             // 
             // btnDisplayPostOrder
             // 
@@ -280,6 +281,7 @@
             this.btnSaveInorder.TabIndex = 43;
             this.btnSaveInorder.Text = "save";
             this.btnSaveInorder.UseVisualStyleBackColor = false;
+            this.btnSaveInorder.Click += new System.EventHandler(this.btnSaveInorder_Click);
             // 
             // btnDisplayInorder
             // 

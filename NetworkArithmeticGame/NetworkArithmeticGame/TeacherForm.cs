@@ -373,9 +373,10 @@ namespace NetworkArithmeticGame
             HashTable.Add("Operator", cboxOperator.Text);
             HashTable.Add("Second Number", txtSecondNumber.Text);
             HashTable.Add("Answer", txtAnswer.Text);
+            HashTable.Add("Binary Tree", txtLinkedList);
 
             var BinaryConverter = new System.Runtime.Serialization.Formatters.Binary.BinaryFormatter();
-            using (var save = File.Create("BinaryTree"))
+            using (var save = File.Create("BinaryTree.txt"))
             {
                 //streamwriter.Write(HashTable);
                 BinaryConverter.Serialize(save, HashTable);
@@ -497,7 +498,17 @@ namespace NetworkArithmeticGame
 
         private void btnSavePreorder_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("The binary tree has been saved");
+            hashDemo();
+        }
+
+        private void btnSaveInorder_Click(object sender, EventArgs e)
+        {
+            hashDemo();
+        }
+
+        private void btnSavePostOrder_Click(object sender, EventArgs e)
+        {
+            hashDemo();
         }
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////
